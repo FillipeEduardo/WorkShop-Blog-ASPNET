@@ -9,7 +9,7 @@ namespace Blog.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok("Ola mundo");
+            return Ok();
         }
 
     }

@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lipao\\Desktop\\Blog\\Blog.csproj": {}
+    "C:\\Users\\ext.fillipeeos\\Desktop\\WorkShop-Blog-ASPNET\\Blog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lipao\\Desktop\\Blog\\Blog.csproj": {
+    "C:\\Users\\ext.fillipeeos\\Desktop\\WorkShop-Blog-ASPNET\\Blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lipao\\Desktop\\Blog\\Blog.csproj",
+        "projectUniqueName": "C:\\Users\\ext.fillipeeos\\Desktop\\WorkShop-Blog-ASPNET\\Blog.csproj",
         "projectName": "Blog",
-        "projectPath": "C:\\Users\\lipao\\Desktop\\Blog\\Blog.csproj",
-        "packagesPath": "C:\\Users\\lipao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lipao\\Desktop\\Blog\\obj\\",
+        "projectPath": "C:\\Users\\ext.fillipeeos\\Desktop\\WorkShop-Blog-ASPNET\\Blog.csproj",
+        "packagesPath": "C:\\Users\\ext.fillipeeos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ext.fillipeeos\\Desktop\\WorkShop-Blog-ASPNET\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lipao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ext.fillipeeos\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\ext.fillipeeos\\Documents\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
