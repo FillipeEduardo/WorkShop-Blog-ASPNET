@@ -18,6 +18,7 @@ namespace Blog.Data.Mappings
             builder.Property(x => x.Id)
                 .ValueGeneratedOnAdd();
                 
+                
 
             // Propriedades
             builder.Property(x => x.Name)

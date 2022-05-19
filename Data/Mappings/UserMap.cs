@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Blog.Models;
+﻿using Blog.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -18,6 +17,7 @@ namespace Blog.Data.Mappings
             // Identity
             builder.Property(x => x.Id)
                 .ValueGeneratedOnAdd();
+                
                 
 
             // Propriedades

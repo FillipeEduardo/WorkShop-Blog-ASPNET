@@ -1,4 +1,5 @@
 using Blog.Data;
+using Blog.Extensions;
 using Blog.Models;
 using Blog.ViewModels;
 using Microsoft.AspNetCore.Mvc;
@@ -47,7 +48,7 @@ namespace Blog.Controllers
         public async Task<IActionResult> PostAsync([FromServices] BlogDataContext context, [FromBody] EditorCategoryViewModel model)
         {
 
-            if (!ModelState.IsValid) BadRequest(new ResultViewModel<Category>("Conteúdo não encontrado"));
+            if (!ModelState.IsValid) BadRequest(new ResultViewModel<Category>(ModelState.GetErrors()));
 
             try
             {
