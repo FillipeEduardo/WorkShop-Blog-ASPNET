@@ -38,6 +38,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "microsoft.aspnetcore.authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "microsoft.aspnetcore.authentication.jwtbearer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
             "microsoft.entityframeworkcore": {
               "target": "Package",
               "version": "[6.0.5, )"
